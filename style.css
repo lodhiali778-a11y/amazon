@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    height: 50px;
+    background-color:#131921;
+    color: white;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+
+.logo img{
+    height: 30px;
+}
+span{
+    font-size: 12px;
+    color:#cccccc ;
+}
+a{
+    font-size: 14px;
+
+}
+.ul{
+    align-items: center;
+}
+.navbar-search{
+    display: flex;
+    background-color: blue;
+    border-radius: 150px;
+}
+#option{
+    font-size: 14px;
+    color: #0f1111;
+    background-color: #ffffff;
+}
+input{
+    padding: 7px 10px 10px 0px;
+    width: 400px;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    background-color: #F3A847;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+.navbar-hellow{
+
+}
+#one{
+    font-size: 12px;
+    color: #ffffff;
+}
+#two{
+    font-size: 14px;
+}
+#three{
+    font-size: 12px;
+     color: #ffffff;
+}
+.four{
+    font-size: 14px;
+}
+.navbar-cart i{
+font-size: 20px;
+
+}
+.pannel{
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    display:flex ;
+    align-items: center;
+    
+    
+}
+.pannel-option{
+    display: flex;
+    
+}
+.pannel-option:hover{
+    text-decoration: underline;
+}
+.pannel-option p{
+    margin-left: 50px;
+}
+.shopping{
+    
+}
+.box{
+    display: flex;
+    margin: 25px;
+    
+}
+   
+.card{margin: 20px;
+    height: 400px;
+width:400px;
+border: 5px solid rebeccapurple;
+
+}
+.card p{
+    text-transform: capitalize;
+}
+#bat{
+    height:300px;
+    background-size: contain;
+
+}
