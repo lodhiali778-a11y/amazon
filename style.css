@@ -116,3 +116,107 @@ border: 5px solid rebeccapurple;
     background-size: contain;
 
 }
+
+/* Prevent horizontal scroll */
+body{
+    overflow-x: hidden;
+}
+
+/* Make images responsive */
+img{
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 600px){
+
+    /* Navbar */
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .logo img{
+        height: 25px;
+    }
+
+    /* Search bar */
+    .navbar-search{
+        width: 100%;
+        margin-top: 10px;
+        background-color: transparent;
+    }
+
+    input{
+        width: 100%;
+        padding: 8px;
+    }
+
+    #option{
+        display: none;
+    }
+
+    /* Hide text, keep icons */
+    .navbar-hellow,
+    .navbar-cart a{
+        display: none;
+    }
+
+    /* Panel */
+    .pannel{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 8px;
+    }
+
+    .pannel-option{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .pannel-option p{
+        margin-left: 0;
+        font-size: 13px;
+    }
+
+    /* Cards */
+    .box{
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    #bat{
+        height: 200px;
+    }
+}
+@media (max-width: 992px){
+
+    .navbar{
+        flex-wrap: wrap;
+    }
+
+    .navbar-search input{
+        width: 250px;
+    }
+
+    .box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card{
+        width: 45%;
+        height: auto;
+    }
+
+    #bat{
+        height: 250px;
+    }
+}
